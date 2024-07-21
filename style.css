@@ -5,20 +5,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 :root{
-    --cor1:#71a0ff;
-    --cor2:#F5C149;
-    --cor3:#55FA4D;
-    --cor01:#044DDE;
-    --cor02:#2652AB;
-    --cor03:#324A78;
-    --cor04:#2B3345;
-    --cor05:#2A2D33;
-    --cinza0:#E2E2E2;
-    --cinza1:#A6A6A6;
-    --cinza2:#737373;
-    --cinza3:#595959;
-    --cinza4:#262626;
-    --cinza5:#0D0D0D;
+    --cor2:#E89D4A;
+    --cor3:#FD5F85;
+    --cor1:#50D6EE;
+    --corpadrao:#B4B6BA;
 }
 .arealogo{
     display: flex;
@@ -34,7 +24,7 @@
 .line{
     width:60vw;
     height: 2px;
-    background-color: var(--cor3);
+    background-color: var(--cor2);
     margin: 20px;
     border-radius: 10px;
 }
@@ -103,9 +93,9 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: var(--corpadrao);
 }
 #inicio{
-    background-color: #fff;
     width: 90vw;
     display: flex;
     flex-direction: column;
@@ -127,7 +117,7 @@ main{
     gap: 10px;
 }
 #inicio #perfil{
-    background-image: url('imagens/avatar-612x612.jpg');
+    background-image: url('imagens/tratadas/astronaut.500x500.webp');
     background-size: cover;
 }
 #inicio #apresentação{
