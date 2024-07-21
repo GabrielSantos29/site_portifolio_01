@@ -20,10 +20,16 @@
     --cinza4:#262626;
     --cinza5:#0D0D0D;
 }
+.arealogo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 .logo{
     width: 75px;
     height: 75px;
-    margin: 5px;
+    margin: 15px;
 }
 .line{
     width:60vw;
@@ -37,9 +43,10 @@
     max-width: 100vw;
 }
 .projetos{
-    width: 400px;
+    width: 350px;
     height: 300px;
     border: 1px dashed black;
+    margin-bottom: 5px;
 }
 /*botoes*/
 .button{
