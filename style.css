@@ -23,7 +23,7 @@
 .logo{
     width: 75px;
     height: 75px;
-    margin: 15px;
+    margin: 5px;
 }
 .line{
     width:60vw;
@@ -125,7 +125,7 @@ main{
 }
 #inicio #apresentação{
     background-color: var(--cor1);
-    width: 97vw;
+    width: 100vw;
     border-radius: 10px;
 }
 #inicio #apresentação h1{
