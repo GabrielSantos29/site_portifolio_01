@@ -112,6 +112,7 @@ main{
     justify-content: center;
     align-items: center;
     margin: 50px 0px 10px 0px;
+    width: 100vw;
 }
 
 #inicio div{
